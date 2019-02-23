@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Lodash from 'lodash';
+
 import Functions from './src/functions';
 
 var _FINAL_CREDIT_CARD_TYPES = Functions.getAllCardTypeKeysAsAnArray(),
@@ -71,7 +73,9 @@ const CreditCardType = {
     _FINAL_CREDIT_CARD_TYPES = Functions.getAllCardTypeKeysAsAnArray();
     _FINAL_CUSTOM_CARDS = {};
   },
-  types: Functions.getAllCardTypeKeys()
+  types: Lodash.mapKeys(Functions.getAllCardTypeKeys(), (value, key) => {
+    return Functions.convertTokenToKey(key)
+  })
 };
 
 module.exports = CreditCardType;
