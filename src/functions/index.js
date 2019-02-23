@@ -1,5 +1,5 @@
-const Lodash = require('lodash'),
-      Datasets = require('../datasets');
+import Lodash from 'lodash';
+import Datasets from '../datasets';
 
 module.exports = {
   convertTokenToKeyword: (token) => {

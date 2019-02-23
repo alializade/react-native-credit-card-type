@@ -1,4 +1,5 @@
-const Functions = require('./src/functions');
+import React, { Component } from 'react';
+import Functions from './src/functions';
 
 var _FINAL_CREDIT_CARD_TYPES = Functions.getAllCardTypeKeysAsAnArray(),
     _FINAL_CUSTOM_CARDS = {};
