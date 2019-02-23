@@ -1,0 +1,72 @@
+{
+  "name": "rn-credit-card-type",
+  "version": "1.0.1",
+  "description": "A library for determining credit card type for react native based on react-native-credit package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alializade/rn-credit-card-type.git"
+  },
+  "homepage": "https://github.com/braintree/credit-card-type",
+  "author": {
+    "name": "Ali Alizade Haqiqi",
+    "email": "alializade@peedes.com",
+    "url": "http://peedes.com/"
+  },
+  "contributors": [
+    {
+      "name": "Ali Alizade Haqiqi",
+      "email": "alializade@peedes.com",
+      "url": "http://peedes.com/"
+    }
+  ],
+  "license": "MIT",
+  "_requiredBy": [
+    "/",
+    "/@babel/core",
+    "/@babel/generator",
+    "/@babel/helper-define-map",
+    "/@babel/helper-module-imports",
+    "/@babel/helper-module-transforms",
+    "/@babel/helper-regex",
+    "/@babel/helper-simple-access",
+    "/@babel/plugin-transform-block-scoping",
+    "/@babel/register",
+    "/@babel/template",
+    "/@babel/traverse",
+    "/@babel/types",
+    "/async",
+    "/babel-core",
+    "/babel-generator",
+    "/babel-helper-define-map",
+    "/babel-helper-regex",
+    "/babel-plugin-transform-es2015-block-scoping",
+    "/babel-preset-react-native/metro-babel7-plugin-react-transform",
+    "/babel-register",
+    "/babel-template",
+    "/babel-traverse",
+    "/babel-types",
+    "/inquirer",
+    "/istanbul-api/@babel/generator",
+    "/istanbul-api/@babel/template",
+    "/istanbul-api/@babel/traverse",
+    "/istanbul-api/@babel/types",
+    "/metro-babel7-plugin-react-transform",
+    "/react-native",
+    "/react-native-svg",
+    "/react-proxy",
+    "/react-redux",
+    "/request-promise-core",
+    "/lodash"
+  ],
+  "keywords": [
+    "credit-card",
+    "card",
+    "credit",
+    "mastercard",
+    "visa"
+  ]
+}
